@@ -1,7 +1,7 @@
 {
-    "recommendations": [
-        "dbaeumer.vscode-eslint",
-        "csstools.postcss",
-        "ms-ceintl.vscode-language-pack-it"
-    ]
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "csstools.postcss",
+    "ms-ceintl.vscode-language-pack-it"
+  ]
 }
