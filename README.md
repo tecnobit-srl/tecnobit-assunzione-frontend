@@ -10,10 +10,14 @@ Esercizio da utilizzare durante le sessioni di assunzioni per testare le conosce
 	- Se ci immaginassimo che la callback, anzichè andare ad aggiornare semplicemente lo state, dovesse effettuare un elaborazione più impegnativa (es. barra di ricerca), cambieresti qualcosa? \[debounce]
 	- Ti viene in mente anche un altra possibile soluzione per ottenere il riferimento al testo attuale? [usare un ref oppure usare l'event nella callback dell'onChange]
 
+![Esempio step 1](./step%201.png)
+
 2. Aggiungi un bottone a fianco dell'input testuale, ogni volta che viene premuto viene aggiunta la stringa in una lista da mostrare sotto, e l'input di testo deve svuotarsi
 	- Stilizzalo per renderlo carino (puoi prendere riferimento l'immagine di esempio)
 	- Che ruolo ha `key` come attributo nel renderizzare la lista di elementi? \[performance] Qual è il modo ottimale per assegnarlo? 
 	- Disabilita il bottone fin tanto che non c'è qualche carattere digitato (anche qui solo spazi = stringa vuota)
+
+![Esempio step 2](./step%202.png)
 
 3. \[avanzato!] Fai in modo che ogni elemento della lista sia cliccabile, e quando viene cliccato l'elemento **precedente** cambia colore (il primo elemento colora l'ultimo)
 
