@@ -5,15 +5,15 @@ Esercizio da utilizzare durante le sessioni di assunzioni per testare le conosce
 ## Domande
 
 1. Inserisci un input testuale, replica (in tempo reale) il testo contenuto nel campo di testo sotto di esso
-	a. Stilizzalo per renderlo carino (puoi prendere riferimento l'immagine di esempio)
-	b. Mostra un testo diverso in caso non si stato inserito nulla (se son inseriti solo spazi considerali una stringa vuota)
-	c. Se ci immaginassimo che la callback, anzichè andare ad aggiornare semplicemente lo state, dovesse effettuare un elaborazione più impegnativa (es. barra di ricerca), cambieresti qualcosa? \[debounce]
-	d. Ti viene in mente anche un altra possibile soluzione per ottenere il riferimento al testo attuale? [usare un ref oppure usare l'event nella callback dell'onChange]
+	- Stilizzalo per renderlo carino (puoi prendere riferimento l'immagine di esempio)
+	- Mostra un testo diverso in caso non si stato inserito nulla (se son inseriti solo spazi considerali una stringa vuota)
+	- Se ci immaginassimo che la callback, anzichè andare ad aggiornare semplicemente lo state, dovesse effettuare un elaborazione più impegnativa (es. barra di ricerca), cambieresti qualcosa? \[debounce]
+	- Ti viene in mente anche un altra possibile soluzione per ottenere il riferimento al testo attuale? [usare un ref oppure usare l'event nella callback dell'onChange]
 
 2. Aggiungi un bottone a fianco dell'input testuale, ogni volta che viene premuto viene aggiunta la stringa in una lista da mostrare sotto, e l'input di testo deve svuotarsi
-	a. Stilizzalo per renderlo carino (puoi prendere riferimento l'immagine di esempio)
-	b. Che ruolo ha `key` come attributo nel renderizzare la lista di elementi? \[performance] Qual è il modo ottimale per assegnarlo? 
-	c. Disabilita il bottone fin tanto che non c'è qualche carattere digitato (anche qui solo spazi = stringa vuota)
+	- Stilizzalo per renderlo carino (puoi prendere riferimento l'immagine di esempio)
+	- Che ruolo ha `key` come attributo nel renderizzare la lista di elementi? \[performance] Qual è il modo ottimale per assegnarlo? 
+	- Disabilita il bottone fin tanto che non c'è qualche carattere digitato (anche qui solo spazi = stringa vuota)
 
 3. \[avanzato!] Fai in modo che ogni elemento della lista sia cliccabile, e quando viene cliccato l'elemento **precedente** cambia colore (il primo elemento colora l'ultimo)
 
