@@ -2,6 +2,9 @@
   "recommendations": [
     "dbaeumer.vscode-eslint",
     "csstools.postcss",
-    "ms-ceintl.vscode-language-pack-it"
+    "ms-ceintl.vscode-language-pack-it",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig"
   ]
 }
